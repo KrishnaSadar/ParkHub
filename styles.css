@@ -1,0 +1,116 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1d1d1d;
+    color: white;
+    margin: 0;
+    padding-top: 60px; /* Adjust to account for the fixed header height */
+}
+.header {
+    background-color: #111;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+.middle-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 50px;
+    gap: 20px; /* Add spacing between elements */
+}
+.logo {
+    font-size: 34px;
+    font-weight: bold;
+}
+.logo .hub {
+    background-color: #F79A24;
+    border-radius: 5px;
+    color: black;
+}
+.search-container {
+    display: flex;
+    align-items: center;
+}
+.search-bar {
+    padding: 5px;
+    background-color: #363636;
+    border: none;
+    height: 24px;
+    border-radius: 4px 0 0 4px;
+    width: 600px;
+}
+.search-button {
+    padding: 5px 10px;
+    background-color: #F79A24;
+    border: none;
+    height: 35px;
+    border-radius: 0 4px 4px 0;
+    color: black;
+    cursor: pointer;
+}
+.upload-button {
+    padding: 5px 10px;
+    background-color: #2F2F2F;
+    border: none;
+    border-radius: 4px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+.upgrade-button {
+    padding: 5px 10px;
+    background-color: #F79A24;
+    border: none;
+    border-radius: 4px;
+    color: black;
+    cursor: pointer;
+}
+.lower-header {
+    text-align: center;
+    margin-top: 10px;
+}
+.lower-header nav a {
+    color: white;
+    margin: 0 30px; /* Adjust margin for more spacing */
+    text-decoration: none;
+}
+.lower-header nav a:hover {
+    text-decoration: underline;
+}
+.container {
+    padding: 20px;
+    text-align: center;
+}
+.container h2 {
+    margin: 20px 0;
+    font-size: 20px;
+}
+.container p {
+    font-size: 16px;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    margin-top: -30px;
+}
+.grid-item {
+    background-color: #1d1d1d;
+    padding: 10px;
+    border-radius: 5px;
+}
+.grid-item img {
+    width: 100%;
+    height: 80%;
+    border-radius: 5px;
+}
+.grid-item .title {
+    font-weight: bold;
+    color: #F79A24;
+    margin: 10px 0 5px 0;
+}
+.grid-item .price {
+    color: #D3D3D3;
+}
